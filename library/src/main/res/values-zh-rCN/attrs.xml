@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="auto_view_state_list">
+        <item>待机</item>
+        <item>自检</item>
+        <item>准备</item>
+        <item>首行</item>
+        <item>循环清洗</item>
+        <item>末行</item>
+        <item>归位</item>
+        <item>完成结束</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_left_str_lingguang">
+        <item>遥控</item>
+        <item>视觉</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_left_str_lingjing">
+    </string-array>
+    <string-array name="dev_auto_mode_list_left_str_lingkong">
+        <item>遥控</item>
+        <item>左贴框</item>
+        <item>居中</item>
+        <item>右贴框</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_right_lingjing">
+        <item>停止</item>
+        <item>开始</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_right_str_lingkong">
+        <item>收水</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_right_visual_str">
+        <item>关闭</item>
+        <item>快洗</item>
+        <item>全洗</item>
+    </string-array>
+    <string-array name="dev_automode_config_lingguang">
+        <item>常规,快速,常规带初始化,快速带初始化</item>
+        <item>向左,向右</item>
+        <item>最小,正常,双倍</item>
+        <item>快速,中速,慢速</item>
+    </string-array>
+    <string-array name="dev_automode_config_lingjing">
+        <item>横洗,竖洗</item>
+        <item>使能,禁用</item>
+        <item>20cm,40cm,60cm</item>
+    </string-array>
+    <string-array name="dev_automode_debug_lingguang">
+        <item>1 自动模式</item>
+        <item>2 快洗方向/全洗初始</item>
+        <item>3 重叠率</item>
+        <item>4 清洗速度</item>
+        <item>5 平移油门（10–100%）</item>
+        <item>6 旋转油门（10–100%）</item>
+        <item>7 低速探边油门（10–50%）</item>
+        <item>8 滚刷油门（0–100%）</item>
+        <item>9 滚刷运行类型</item>
+        <item>10 遇障刹车距离（厘米）</item>
+        <item>11 雨刮运行周期（秒）</item>
+        <item>12 转弯差速(10–190%)</item>
+        <item>13 斜面斜率阈值（度）</item>
+        <item>14 原地校正偏航角阈值（0.1度）</item>
+        <item>15 清洗直行类型</item>
+        <item>16 调头类型</item>
+        <item>17 末行找边类型</item>
+        <item>18 结束类型</item>
+        <item>19 视觉到边刹车距离(厘米)</item>
+        <item>20 视觉到边可旋转刹车距离(厘米)</item>
+        <item>21 视觉到边可转弯刹车距离（厘米）</item>
+        <item>22 视觉到边退后距离(厘米)</item>
+        <item>23 防跌落到边退后距离（厘米）</item>
+        <item>24 转弯额外退后距离（厘米）</item>
+        <item>25 转弯滞后倍数（0.1）</item>
+        <item>26 转弯斜面增加刹车距离（厘米）</item>
+        <item>27 挪动调整次数</item>
+        <item>28 纠偏类型</item>
+        <item>29 PID纠偏P值(0.1)</item>
+        <item>30 PID纠偏I值(0.1)</item>
+        <item>31 PID纠偏D值(0.1)</item>
+        <item>32 最小纠偏角度(0.1度)</item>
+        <item>33 线性纠偏倍数(0.1)</item>
+        <item>34 调整偏移类型</item>
+        <item>35 PID偏移P值(0.1)</item>
+        <item>36 PID偏移I值(0.1)</item>
+        <item>37 PID偏移D值(0.1)</item>
+        <item>38 最小调整距离(厘米)</item>
+        <item>39 线性调整最小角度(0.1度)</item>
+        <item>40 线性调整最大角度(度)</item>
+        <item>41 无法前进报警阈值(帧)</item>
+        <item>42 无法纠偏报警阈值(帧)</item>
+        <item>43 连续侧滑报警阈值(帧)</item>
+        <item>44 左侧车宽（厘米）</item>
+        <item>45 右侧车宽（厘米）</item>
+        <item>46 保存原始图片间隔(帧)</item>
+        <item>47 保存slam图片间隔(帧)</item>
+        <item>48 保存障碍图片间隔(帧)</item>
+        <item>49 测试用参数</item>
+    </string-array>
+    <string-array name="dev_automode_debug_lingjing">
+        <item>1 自动模式</item>
+        <item>2 地图规划</item>
+        <item>3 清洗间隔</item>
+    </string-array>
+    <string-array name="dev_config_info_lingguang">
+        <item>设备类型</item>
+        <item>设备地址</item>
+        <item>设备版本</item>
+        <item>视觉版本</item>
+        <item>设备SN</item>
+        <item>作业总时</item>
+        <item>避障距离</item>
+        <item>设备速度</item>
+        <item>设备日志</item>
+        <item>作业保养</item>
+    </string-array>
+    <string-array name="dev_config_info_lingjing">
+        <item>设备类型</item>
+        <item>设备地址</item>
+        <item>设备版本</item>
+        <item>地面站版本</item>
+        <item>设备SN</item>
+        <item>作业总时</item>
+        <item>避障距离</item>
+        <item>设备速度</item>
+        <item>设备日志</item>
+        <item>作业保养</item>
+    </string-array>
+    <string-array name="dev_config_info_lingkong">
+        <item>设备类型</item>
+        <item>设备地址</item>
+        <item>设备版本</item>
+        <item>子设备版本</item>
+        <item>设备SN</item>
+        <item>作业总时</item>
+        <item>避障距离</item>
+        <item>设备速度</item>
+        <item>设备日志</item>
+        <item>作业保养</item>
+        <item>提升重启</item>
+        <item>水加热</item>
+        <item>上刮板居中时间</item>
+        <item>下刮板居中时间</item>
+    </string-array>
+    <string-array name="dev_config_info_lingkong_b">
+        <item>设备类型</item>
+        <item>设备地址</item>
+        <item>设备版本</item>
+        <item>子设备版本</item>
+        <item>设备SN</item>
+        <item>作业总时</item>
+        <item>避障距离</item>
+        <item>设备速度</item>
+        <item>设备日志</item>
+        <item>作业保养</item>
+        <item>提升重启</item>
+        <item>水加热</item>
+        <item>刮板最大角度</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_left_str_lingguang">
+        <item>上清洁</item>
+        <item>停止</item>
+        <item>下清洁</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_left_str_lingjing_b">
+        <item>上清洁</item>
+        <item>停止</item>
+        <item>下清洁</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_left_str_lingkong">
+        <item>上清洁</item>
+        <item>停止</item>
+        <item>下清洁</item>
+        <item>上换向</item>
+        <item>停止</item>
+        <item>下换向</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_right_str_lingguang">
+        <!--        <item>喷水</item>-->
+        <!--        <item>吸附</item>-->
+    </string-array>
+    <string-array name="dev_hand_mode_list_right_str_lingjing_b">
+        <item>喷水</item>
+        <item>吸附</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_right_str_lingkong">
+        <item>喷水</item>
+        <item>水汽分离</item>
+        <item>吸附</item>
+    </string-array>
+
+    <string-array name="dev_mode_state_left_lingjing">
+        <item>上清洁</item>
+        <item>停止</item>
+        <item>下清洁</item>
+    </string-array>
+    <string-array name="dev_mode_state_right_lingjing">
+        <item>喷水</item>
+        <item>水汽分离</item>
+        <item>吸附</item>
+    </string-array>
+    <string-array name="dev_speed_config_lingguang">
+        <item>前进</item>
+        <item>后退</item>
+        <item>清洗</item>
+        <!--        <item>吸附</item>-->
+    </string-array>
+    <string-array name="dev_speed_config_lingjing_a">
+        <item>前进</item>
+        <item>后退</item>
+        <item>前进喷水</item>
+        <item>后退喷水</item>
+        <item>水汽</item>
+        <item>吸附</item>
+    </string-array>
+    <string-array name="dev_speed_config_lingjing_b">
+        <item>前进</item>
+        <item>后退</item>
+        <item>前进喷水</item>
+        <item>后退喷水</item>
+        <item>清洗</item>
+        <item>吸附</item>
+    </string-array>
+    <string-array name="dev_speed_config_lingkong">
+        <item>上行</item>
+        <item>下行</item>
+        <item>上行喷水1</item>
+        <item>下行喷水1</item>
+        <item>上行喷水2</item>
+        <item>下行喷水2</item>
+        <item>水气</item>
+        <item>清洗</item>
+        <item>吸附</item>
+    </string-array>
+    <string-array name="err_motor_list">
+        <item>移动电机1</item>
+        <item>移动电机2</item>
+        <item>移动电机3</item>
+        <item>移动电机4</item>
+        <item>吸附电机</item>
+        <item>水汽电机</item>
+        <item>上清洗电机</item>
+        <item>下清洗电机</item>
+        <item>上喷水电机</item>
+        <item>下喷水电机</item>
+        <item>提升电机</item>
+        <item>上转向电机</item>
+        <item>下转向电机</item>
+        <item>左推进电机</item>
+        <item>右推进电机</item>
+        <item>上换向电机</item>
+        <item>下换向电机</item>
+    </string-array>
+    <string-array name="err_motor_value_list">
+        <item>过载</item>
+        <item>未接</item>
+        <item>异常</item>
+        <item>欠压</item>
+        <item>过压</item>
+        <item>堵转</item>
+        <item>低温</item>
+        <item>高温</item>
+        <item>霍尔</item>
+    </string-array>
+    <string-array name="err_sensor_list">
+        <item>跌落传感器1</item>
+        <item>跌落传感器2</item>
+        <item>跌落传感器3</item>
+        <item>跌落传感器4</item>
+        <item>碰撞传感器1</item>
+        <item>碰撞传感器2</item>
+        <item>碰撞传感器3</item>
+        <item>碰撞传感器4</item>
+        <item>转向传感器1</item>
+        <item>转向传感器2</item>
+        <item>换向传感器1</item>
+        <item>换向传感器2</item>
+        <item>换向传感器3</item>
+        <item>换向传感器4</item>
+        <item>前测距</item>
+        <item>后测距</item>
+        <item>左测距</item>
+        <item>右测距</item>
+        <item>UWB测距</item>
+    </string-array>
+    <string-array name="err_sensor_uwb_value_list">
+        <item>地面站测距未接</item>
+        <item>地面站测距离线</item>
+        <item>地面站测距超距</item>
+        <item>地面站测距异常</item>
+    </string-array>
+    <string-array name="err_sensor_value_list">
+        <item>未接</item>
+        <item>安装异常</item>
+        <item>异常</item>
+    </string-array>
+    <string-array name="visual_ota_error_list">
+        <item>URL核对失败</item>
+        <item>MD5核对失败</item>
+        <item>网络异常</item>
+        <item>异常退出</item>
+    </string-array>
+    <string-array name="visual_ota_quit_list">
+        <item>通信超时退出</item>
+        <item>视觉状态反馈异常</item>
+        <item>视觉反馈状态机不存在</item>
+    </string-array>
+</resources>

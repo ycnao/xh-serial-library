@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="auto_view_state_list">
+        <item>Bide one time</item>
+        <item>self-inspection</item>
+        <item>Equipping Items</item>
+        <item>First line</item>
+        <item>Cycle cleaning</item>
+        <item>Terminal row</item>
+        <item>homing</item>
+        <item>Completion end</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_left_str_lingguang">
+        <item> Remote </item>
+        <item> Vision </item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_left_str_lingjing">
+        <!-- <item> Remote </item>
+        <item> Vision </item> -->
+    </string-array>
+    <string-array name="dev_auto_mode_list_left_str_lingkong">
+        <item> Remote </item>
+        <item> Left frame </item>
+        <item> Center </item>
+        <item> Right frame </item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_right_lingjing">
+        <item>Stop</item>
+        <item>Start</item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_right_str_lingkong">
+        <item> Collect water </item>
+    </string-array>
+    <string-array name="dev_auto_mode_list_right_visual_str">
+        <item> Close </item>
+        <item> Quick wash</item>
+        <item> Full wash </item>
+    </string-array>
+    <string-array name="dev_automode_config_lingguang">
+        <item>Regular,Fast,Tape initialization,Fast tape initialization</item>
+        <item>Left, Right</item>
+        <item>Minimum, Normal, Double</item>
+        <item>Fast, Medium, Slow</item>
+    </string-array>
+    <string-array name="dev_automode_config_lingjing">
+        <item>Wash horizontally,Wash vertically</item>
+        <item>Enable,Disable</item>
+        <item>20cm,40cm,60cm</item>
+    </string-array>
+    <string-array name="dev_automode_debug_lingguang">
+        <item>1 Automatic mode</item>
+        <item>2 Fast wash direction/Full wash initial</item>
+        <item>3 Overlap rate</item>
+        <item>4 Cleaning speed</item>
+        <item>5 平移油门（10–100%）</item>
+        <item>6 旋转油门（10–100%）</item>
+        <item>7 低速探边油门（10–50%）</item>
+        <item>8 滚刷油门（0–100%）</item>
+        <item>9 滚刷运行类型</item>
+        <item>10 遇障刹车距离（厘米）</item>
+        <item>11 雨刮运行周期（秒）</item>
+        <item>12 转弯差速(10–190%)</item>
+        <item>13 斜面斜率阈值（度）</item>
+        <item>14 原地校正偏航角阈值（0.1度）</item>
+        <item>15 清洗直行类型</item>
+        <item>16 调头类型</item>
+        <item>17 末行找边类型</item>
+        <item>18 结束类型</item>
+        <item>19 视觉到边刹车距离(厘米)</item>
+        <item>20 视觉到边可旋转刹车距离(厘米)</item>
+        <item>21 视觉到边可转弯刹车距离（厘米）</item>
+        <item>22 视觉到边退后距离(厘米)</item>
+        <item>23 防跌落到边退后距离（厘米）</item>
+        <item>24 转弯额外退后距离（厘米）</item>
+        <item>25 转弯滞后倍数（0.1）</item>
+        <item>26 转弯斜面增加刹车距离（厘米）</item>
+        <item>27 挪动调整次数</item>
+        <item>28 纠偏类型</item>
+        <item>29 PID纠偏P值(0.1)</item>
+        <item>30 PID纠偏I值(0.1)</item>
+        <item>31 PID纠偏D值(0.1)</item>
+        <item>32 最小纠偏角度(0.1度)</item>
+        <item>33 线性纠偏倍数(0.1)</item>
+        <item>34 调整偏移类型</item>
+        <item>35 PID偏移P值(0.1)</item>
+        <item>36 PID偏移I值(0.1)</item>
+        <item>37 PID偏移D值(0.1)</item>
+        <item>38 最小调整距离(厘米)</item>
+        <item>39 线性调整最小角度(0.1度)</item>
+        <item>40 线性调整最大角度(度)</item>
+        <item>41 无法前进报警阈值(帧)</item>
+        <item>42 无法纠偏报警阈值(帧)</item>
+        <item>43 连续侧滑报警阈值(帧)</item>
+        <item>44 左侧车宽（厘米）</item>
+        <item>45 右侧车宽（厘米）</item>
+        <item>46 保存原始图片间隔(帧)</item>
+        <item>47 保存slam图片间隔(帧)</item>
+        <item>48 保存障碍图片间隔(帧)</item>
+        <item>49 测试用参数</item>
+    </string-array>
+    <string-array name="dev_automode_debug_lingjing">
+        <item>1 Automatic mode</item>
+        <item>2 Map planning</item>
+        <item>3 Cleaning interval</item>
+    </string-array>
+    <string-array name="dev_config_info_lingguang">
+        <item>Device type</item>
+        <item>Device address</item>
+        <item>Device version</item>
+        <item>Visual version</item>
+        <item>Device SN</item>
+        <item>Total operation time</item>
+        <item>Obstacle avoidance distance</item>
+        <item>Device speed</item>
+        <item>Device log</item>
+        <item>Machine maintenance</item>
+    </string-array>
+    <string-array name="dev_config_info_lingjing">
+        <item>Device type</item>
+        <item>Device address</item>
+        <item>Device version</item>
+        <item>Supply truck version</item>
+        <item>Device SN</item>
+        <item>Total operation time</item>
+        <item>Obstacle avoidance distance</item>
+        <item>Device speed</item>
+        <item>Device log</item>
+        <item>Machine maintenance</item>
+    </string-array>
+    <string-array name="dev_config_info_lingkong">
+        <item>Device type</item>
+        <item>Device address</item>
+        <item>Device version</item>
+        <item>Subdevice version</item>
+        <item>Device SN</item>
+        <item>Total operation time</item>
+        <item>Obstacle avoidance distance</item>
+        <item>Device speed</item>
+        <item>Device log</item>
+        <item>Machine maintenance</item>
+        <item>Lifting restart </item>
+        <item>Water heating </item>
+        <item>Up Scraper center time </item>
+        <item>Down Scraper center time </item>
+    </string-array>
+    <string-array name="dev_config_info_lingkong_b">
+        <item>Device type</item>
+        <item>Device address</item>
+        <item>Device version</item>
+        <item>Subdevice version</item>
+        <item>Device SN</item>
+        <item>Total operation time</item>
+        <item>Obstacle avoidance distance</item>
+        <item>Device speed</item>
+        <item>Device log</item>
+        <item>Machine maintenance</item>
+        <item>Lifting restart </item>
+        <item>Water heating </item>
+        <item>Scraper maximum angle </item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_left_str_lingguang">
+        <item> Upper clean</item>
+        <item> Stop </item>
+        <item> Lower clean</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_left_str_lingjing_b">
+        <item> Upper clean</item>
+        <item> Stop </item>
+        <item> Lower clean</item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_left_str_lingkong">
+        <item> Upper clean</item>
+        <item> Stop </item>
+        <item> Lower clean</item>
+        <item> Up reverse </item>
+        <item> Stop </item>
+        <item> Down reverse </item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_right_str_lingguang">
+        <!--        <item> Spray</item>-->
+        <!--        <item> Absorb </item>-->
+    </string-array>
+    <string-array name="dev_hand_mode_list_right_str_lingjing_b">
+        <item> Spray</item>
+        <item> Absorb </item>
+    </string-array>
+    <string-array name="dev_hand_mode_list_right_str_lingkong">
+        <item> Spray</item>
+        <item> Separate </item>
+        <item> Absorb </item>
+    </string-array>
+    <string-array name="dev_log_control_id">
+        <item>Mode switching -> </item>
+        <item>Left push switch -> </item>
+        <item>Right push switch -> </item>
+        <item>Adsorption switch -> </item>
+        <item>Motion switch -> </item>
+        <item>Steering change -> </item>
+        <item>Cleaning switch -> </item>
+        <item>Water cycle switch -> </item>
+        <item>Water heating switch -> </item>
+        <item>Automatic type switch -> </item>
+        <item>Strong water intake switch -> </item>
+        <item>Wiper switching -> </item>
+        <item>One click back to switch -> </item>
+    </string-array>
+    <string-array name="dev_log_control_info">
+        <item>Standby</item>
+        <item>Manual</item>
+        <item>Auto</item>
+        <item>Timing</item>
+        <item>Power on</item>
+        <item>Matching</item>
+        <item>propel</item>
+        <item>Factory survey</item>
+        <item>repair</item>
+        <item>Off</item>
+        <item>On</item>
+        <item>Up/Left</item>
+        <item>Down/Right</item>
+        <item>Center</item>
+        <item>Left rotation</item>
+        <item>Right rotation</item>
+        <item>Off</item>
+        <item>10°C</item>
+        <item>20°C</item>
+        <item>30°C</item>
+        <item>40°C</item>
+        <item>Stop</item>
+        <item>Visual quick wash starts</item>
+        <item>Visual full wash begins</item>
+        <item>Start</item>
+    </string-array>
+    <string-array name="dev_log_line_from">
+        <item>Remote -> </item>
+        <item>Equipment -> </item>
+    </string-array>
+    <string-array name="dev_log_line_state">
+        <item>Offline</item>
+        <item>online</item>
+    </string-array>
+    <string-array name="dev_log_ota">
+        <item>Start OTA</item>
+        <item>OTA success -> </item>
+        <item>OTA failure</item>
+    </string-array>
+    <string-array name="dev_log_out_id">
+        <item>Travelling motor -> </item>
+        <item>Lifting motor -> </item>
+        <item>Brush motor -> </item>
+    </string-array>
+    <string-array name="dev_log_out_info">
+        <item>Off</item>
+        <item>On</item>
+        <item>Brake</item>
+    </string-array>
+    <string-array name="dev_log_sensor_id">
+        <item>Device signal -> </item>
+        <item>Remote signal -> </item>
+        <item>Drop-proof condition -> </item>
+        <item>Collision-proof condition -> </item>
+    </string-array>
+    <string-array name="dev_log_sensor_info">
+        <item>abnormal</item>
+        <item>normal</item>
+        <item>trigger</item>
+        <item>recover</item>
+    </string-array>
+    <string-array name="dev_log_type">
+        <item>Control</item>
+        <item>State</item>
+        <item>exportation</item>
+        <item>Alarm addition</item>
+        <item>Alarm cancel</item>
+        <item>Alarm cancellation</item>
+        <item>Switch on and off</item>
+        <item>Upgrade</item>
+    </string-array>
+    <string-array name="dev_mode_state_left_lingjing">
+        <item> Upper clean</item>
+        <item> Stop</item>
+        <item> Lower clean</item>
+    </string-array>
+    <string-array name="dev_mode_state_right_lingjing">
+        <item> Spray</item>
+        <item> Water vapor separation </item>
+        <item> Absorb </item>
+    </string-array>
+    <string-array name="dev_speed_config_lingguang">
+        <item> Forward</item>
+        <item> Backward</item>
+        <item> Clean</item>
+        <!--        <item> Absorb </item>-->
+    </string-array>
+    <string-array name="dev_speed_config_lingjing_a">
+        <item> Move up</item>
+        <item> Move down</item>
+        <item> Upper spray</item>
+        <item> Lower spray</item>
+        <item> Steam</item>
+        <item> Absorb </item>
+    </string-array>
+    <string-array name="dev_speed_config_lingjing_b">
+        <item> Move up</item>
+        <item> Move down</item>
+        <item> Upper spray</item>
+        <item> Lower spray</item>
+        <item> Clean</item>
+        <item> Absorb </item>
+    </string-array>
+    <string-array name="dev_speed_config_lingkong">
+        <item> Move up</item>
+        <item> Move down</item>
+        <item> Upper spray 1</item>
+        <item> Lower spray 1</item>
+        <item> Upper spray 2</item>
+        <item> Lower spray 2</item>
+        <item> Steam</item>
+        <item> Clean</item>
+        <item> Absorb </item>
+    </string-array>
+    <string-array name="err_motor_list">
+        <item>move motor1</item>
+        <item>move motor2</item>
+        <item>move motor3</item>
+        <item>move motor4</item>
+        <item>Adsorption motor</item>
+        <item>Water vapor motor</item>
+        <item>Upwash motor</item>
+        <item>Underwash motor</item>
+        <item>Upper water motor</item>
+        <item>Lower water motor</item>
+        <item>Lifting motor</item>
+        <item>Up steering motor</item>
+        <item>Down steering motor</item>
+        <item>Left propulsion motor</item>
+        <item>Right propulsion motor</item>
+        <item>Up strickle motor</item>
+        <item>Down strickle motor</item>
+    </string-array>
+    <string-array name="err_motor_value_list">
+        <item>overload</item>
+        <item>unconnected</item>
+        <item>unusual</item>
+        <item>undervoltage</item>
+        <item>overvoltage</item>
+        <item>locked-rotor</item>
+        <item>hypothermy</item>
+        <item>hyperthermia</item>
+        <item>hall</item>
+    </string-array>
+    <string-array name="err_sensor_list">
+        <item>Drop sensor1</item>
+        <item>Drop sensor2</item>
+        <item>Drop sensor3</item>
+        <item>Drop sensor4</item>
+        <item>Collision sensor1</item>
+        <item>Collision sensor2</item>
+        <item>Collision sensor3</item>
+        <item>Collision sensor4</item>
+        <item>Steering sensor1</item>
+        <item>Steering sensor2</item>
+        <item>Reversing sensor1</item>
+        <item>Reversing sensor2</item>
+        <item>Reversing sensor3</item>
+        <item>Reversing sensor4</item>
+        <item>Preranging</item>
+        <item>Post ranging</item>
+        <item>Left ranging</item>
+        <item>Right ranging</item>
+        <item>UWB ranging</item>
+    </string-array>
+    <string-array name="err_sensor_uwb_value_list">
+        <item>Depot distance missing</item>
+        <item>Depot range off-line</item>
+        <item>Depot distance overshoot</item>
+        <item>Depot ranging anomaly</item>
+    </string-array>
+    <string-array name="err_sensor_value_list">
+        <item>unconnected</item>
+        <item>Installation exception</item>
+        <item>unusual</item>
+    </string-array>
+    <string-array name="visual_ota_error_list">
+        <item>URL check failed</item>
+        <item>MD5 check failed</item>
+        <item>Network exception</item>
+        <item>Abnormal exit</item>
+    </string-array>
+    <string-array name="visual_ota_quit_list">
+        <item>Communication timeout exit</item>
+        <item>Abnormal visual state feedback</item>
+        <item>The visual feedback state machine does not exist</item>
+    </string-array>
+
+</resources>
