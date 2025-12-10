@@ -5,6 +5,7 @@ import android.util.Log;
 import java.math.BigInteger;
 
 public class HexUtil {
+
     private static String TAG = "HEXNum";
 
     public static String encodeHEX(int num, boolean isHeight) {

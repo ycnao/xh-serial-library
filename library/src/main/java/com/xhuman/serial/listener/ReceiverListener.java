@@ -4,6 +4,6 @@ public interface ReceiverListener {
 
     void updateRemoteUi();
 
-    void handelUpdateCbus();
+    void handheldUpdateCubs();
 
 }

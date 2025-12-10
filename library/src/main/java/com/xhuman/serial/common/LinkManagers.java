@@ -735,7 +735,7 @@ public class LinkManagers {
                     Log.e(TAG, "CbusData data len error:" + i6);
                 }
                 receiverListener.updateRemoteUi();
-                receiverListener.handelUpdateCbus();
+                receiverListener.handheldUpdateCubs();
             }
         }
 

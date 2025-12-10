@@ -1,11 +1,5 @@
 package com.xhuman.serial.data;
 
-import android.util.Log;
-
-import com.xhuman.serial.common.cbus.DevStateValue;
-import com.xhuman.serial.common.xh.Xhb;
-import com.xhuman.serial.util.Tools;
-
 public class CbusDataOTA {
 
     public static final int OTA_CMD_IDLE = 0;
