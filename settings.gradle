@@ -1,3 +1,5 @@
 include ':app'
 rootProject.name = "xh-serial-library"
 include ':library'
+include ':fpvlibrary'
+include ':uartlibrary'

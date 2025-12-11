@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion MIN_SDK_VERSION as int
         targetSdkVersion TARGET_SDK_VERSION as int
-        versionCode 5
-        versionName "1.0.5"
+        versionCode 6
+        versionName "1.0.6"
 
         ndk {
             abiFilters 'armeabi', 'armeabi-v7a', 'x86', 'arm64-v8a'
@@ -41,7 +41,6 @@ dependencies {
 //    api files('libs/fpvlibrary-v1.1.aar')
 //    api files('libs/uartVideo-release.aar')
 
-    compile(name: 'fpvlibrary-v1.1', ext: 'aar')
-    compile(name: 'uartVideo-release', ext: 'aar')
-
+    api project(path: ':fpvlibrary')
+    api project(path: ':uartlibrary')
 }
